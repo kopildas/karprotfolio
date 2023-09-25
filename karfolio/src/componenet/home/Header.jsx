@@ -8,6 +8,7 @@ import {
   FaUserAlt,
   FaHome,
 } from "react-icons/fa";
+import '../Header.css'
 
 export default function Header({onMenter,onMleave}) {
   const navigate = useNavigate();
@@ -43,7 +44,7 @@ export default function Header({onMenter,onMleave}) {
 
 
   return (
-    <header className="bg-white border-b shadow-sm sticky top-0 z-40">
+    <header className=" fon border-b shadow-sm sticky top-0 z-40">
         {/* desktop and tablate */}
         <div className="h-16 hidden md:block bg-slate-100">
         <div className="flex items-end justify-end">
