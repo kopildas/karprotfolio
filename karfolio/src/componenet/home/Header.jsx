@@ -49,7 +49,7 @@ export default function Header({onMenter,onMleave}) {
         <div className="h-16 hidden md:flex items-center justify-between backdrop-blur-xl">
         <div>
             <img
-              src="./logo_png_.png"
+              src="/karfolio/dist/images/logo_png_.png"
               alt="logo"
               className="h-16 ml-20 cursor-pointer"
               onClick={() => {
