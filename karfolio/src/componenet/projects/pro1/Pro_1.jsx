@@ -34,12 +34,12 @@ function Project({ id }) {
                   <div className="relative group w-full h-full transition-transform transform-gpu">
                     <div className={`-z-30`}>
                       <img
-                        src={`../../../../public/images/mobRota.png`}
+                        src={`../../../../dist/images/mob.png`}
                         alt="Image 1"
                         className="absolute w-[900px] h-[900px] object-cover transform-gpu transition-transform group-hover:-translate-y-48 -top-[450px] -right-44"
                       />
                       <img
-                        src={`../../../../public/images/mob.png`}
+                        src={`../../../../dist/images/mob.png`}
                         alt="Image 2"
                         className="absolute w-[900px] -bottom-[350px] -left-44 h-[900px]  object-cover transform-gpu transition-transform group-hover:translate-y-48"
                       />
@@ -85,7 +85,7 @@ function Project({ id }) {
                 whileHover={{ scale: [1, 1, 0.9] }}
                 transition={{ duration: 0.09 }}
                 style={{
-                  backgroundImage: `url("../../../../public/images/${id}.png")`,
+                  backgroundImage: `url("../../../../dist/images/${id}.png")`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
