@@ -44,7 +44,7 @@ export default function Header({onMenter,onMleave}) {
 
 
   return (
-    <header className=" fon border-b shadow-sm sticky top-0 z-50">
+    <header className=" fon border-b shadow-sm sticky top-0 z-40">
         {/* desktop and tablate */}
         <div className="h-16 hidden md:flex items-center justify-between backdrop-blur-xl">
         <div>
