@@ -106,7 +106,7 @@ function Project({ id }) {
                       </p>
                       <p className="text-[18px] mb-1">
                         on products and design system. Crafting cool resources
-                        and blogs.
+                        and blogs..
                       </p>
                     </div>
                   </div>
