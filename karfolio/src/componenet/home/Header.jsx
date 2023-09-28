@@ -8,7 +8,7 @@ import {
   FaUserAlt,
   FaHome,
 } from "react-icons/fa";
-import '../Header.css'
+import './Header.css'
 
 export default function Header({onMenter,onMleave}) {
   const navigate = useNavigate();
@@ -49,7 +49,7 @@ export default function Header({onMenter,onMleave}) {
         <div className="h-16 hidden md:flex items-center justify-between backdrop-blur-xl">
         <div>
             <img
-              src="../../../public/images/logo_png.png"
+              src="../../../dist/images/logo_png.png"
               alt="logo"
               className="h-16 ml-20 cursor-pointer"
               onClick={() => {
