@@ -4,7 +4,7 @@ import './Hero.css';
 export default function Hero() {
   return (
     <div>
-      <div className="h-[100vh] relative fon1 z-40">
+      <div className="h-[100vh] relative fon1 z-30">
         <div className="warpper ">
           <div className="rounded-full md:w-64 md:h-64 w-24 h-24 blur-[50px] md:blur-[100px] "></div>
           <div className="rounded-full md:w-64 md:h-64 w-24 h-24 blur-[50px] md:blur-[100px] "></div>
