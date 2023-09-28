@@ -44,13 +44,24 @@ export default function Header({onMenter,onMleave}) {
 
 
   return (
-    <header className=" fon border-b shadow-sm sticky top-0 z-40">
+    <header className=" fon border-b shadow-sm sticky top-0 z-50">
         {/* desktop and tablate */}
-        <div className="h-16 hidden md:block bg-slate-100">
+        <div className="h-16 hidden md:flex items-center justify-between backdrop-blur-xl">
+        <div>
+            <img
+              src="../../../public/images/logo_png.png"
+              alt="logo"
+              className="h-16 ml-20 cursor-pointer"
+              onClick={() => {
+                navigate("/");
+                // adminOrNot();
+              }}
+            />
+          </div>
         <div className="flex items-end justify-end">
-            <ul className="flex space-x-10 p-2 mr-20">
+            <ul className="flex space-x-10 mr-20">
               <li
-                className={`cursor-pointer py-3 w-24 h-9 mt-2 text-xl flex items-center justify-center text-gray-600 hover:text-gray-500  ${
+                className={`cursor-pointer py-3 w-24 h-9 text-xl flex items-center justify-center text-gray-600  hover:text-gray-500  ${
                   pathMatchRoute("/") && "text-black border border-sky-500 rounded-sm"
                 }`}
                 onClick={() => {
@@ -63,7 +74,7 @@ export default function Header({onMenter,onMleave}) {
                 Home
               </li>
               <li
-               className={`cursor-pointer py-3 w-24 h-9 mt-2 text-xl flex items-center justify-center text-gray-600 hover:text-gray-500  ${
+               className={`cursor-pointer py-3 w-24 h-9 text-xl flex items-center justify-center text-gray-600 hover:text-gray-500  ${
                 pathMatchRoute("/about") && "text-black border border-sky-500 rounded-sm"
               }`}
                 onClick={() => {
@@ -76,7 +87,7 @@ export default function Header({onMenter,onMleave}) {
                 About
               </li>
               <li
-                className={`cursor-pointer py-3 w-24 h-9 mt-2 text-xl flex items-center justify-center text-gray-600 hover:text-gray-500  ${
+                className={`cursor-pointer py-3 w-24 h-9 text-xl flex items-center justify-center text-gray-600 hover:text-gray-500  ${
                   pathMatchRoute("/projects") && "text-black border border-sky-500 rounded-sm"
                 }`}
                 onClick={() => {
@@ -103,9 +114,9 @@ export default function Header({onMenter,onMleave}) {
         </div>
 
         {/* for mobile */}
-        <div className="md:hidden flex justify-between items-center px-3 max-w-6xl mx-auto">
+        <div className="md:hidden flex justify-between backdrop-blur-lg items-center px-3 max-w-6xl mx-auto">
         <img
-            src="./logo.png"
+            src="../../../public/images/logo_png.png"
             alt="logo"
             className="h-16 cursor-pointer"
             onClick={() => {

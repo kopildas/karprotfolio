@@ -97,7 +97,7 @@
       opacity: 1;
     }
     100% {
-      transform: scale(1.2) translateX(90px) rotate(360deg);
+      transform: scale(1.2) translateX(40px) rotate(360deg);
       opacity: 0;
     }
   }
