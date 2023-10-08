@@ -91,15 +91,15 @@ function Project({ id }) {
                   backgroundRepeat: "no-repeat",
                   height: "100%",
                 }}
-                className="hover:bg-slate-900 z-20 cursor-pointer"
+                className="hover:bg-slate-900 z-20 cursor-pointer transform-gpu transition-transform"
                 onHoverStart={() => setIsHovered(true)} // Handle hover start
                 onHoverEnd={() => setIsHovered(false)} // Handle hover end
               >
                 {isHovered ? (
-                  <div className=" w-full h-full  flex items-center justify-center text-white  transition duration-75 ease-in-out">
+                  <div className=" w-full h-full transform-gpu transition-transform flex items-center justify-center text-white ease-in-out">
                     <div className="flex items-center justify-center flex-col fon1">
                       <p className="text text-[32px] mb-4 fon2">
-                        Hi I'm Austin Bustin
+                        Hi I'm Austin Bustin 2
                       </p>
                       <p className="text-[18px] mb-1">
                         Product Designer by profession & passion, focusing
