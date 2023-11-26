@@ -10,6 +10,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Cursor from './componenet/Cursor';
+import Project_1 from './componenet/projects/pro1/Project_1/Project_1';
+import Pie_Project from './pages/Project/Pie_Project';
 
 
 function App() {
@@ -35,6 +37,9 @@ function App() {
         <Route path="/" element={<Home onMenter={onMenter} onMleave={onMleave}/>} />
         <Route path="/about" element={<About onMenter={onMenter} onMleave={onMleave}/>} />
         <Route path="/projects" element={<Projects onMenter={onMenter} onMleave={onMleave}/>} />
+        <Route path="/project/1" element={<Pie_Project onMenter={onMenter} onMleave={onMleave}/>} />
+        <Route path="/project/2" element={<Projects onMenter={onMenter} onMleave={onMleave}/>} />
+        <Route path="/project/3" element={<Projects onMenter={onMenter} onMleave={onMleave}/>} />
         </Routes>
       </Router>
     </>

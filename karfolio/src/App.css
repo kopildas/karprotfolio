@@ -4,6 +4,21 @@
   padding: 1rem;
   text-align: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100&display=swap');
+.fon {
+    font-family: 'Montagu Slab', serif;
+}
+
+.custom-text-color {
+  text-decoration: #2D1339;
+}
+
+.custom-font {
+  font-weight: 900 !important; /* Specify the desired font weight */
+  /* Add other styles as needed */
+}
+
+
 
 .logo {
   height: 6em;

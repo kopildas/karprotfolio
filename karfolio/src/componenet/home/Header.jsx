@@ -17,15 +17,15 @@ export default function Header({ onMenter, onMleave }) {
   const [visible, setVisible] = useState(true);
 
   const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
+    // const currentScrollPos = window.pageYOffset;
 
-    if (prevScrollPos > currentScrollPos) {
-      setVisible(true); // Scrolling up
-    } else {
-      setVisible(false); // Scrolling down
-    }
+    // if (prevScrollPos > currentScrollPos) {
+    //   setVisible(true); // Scrolling up
+    // } else {
+    //   setVisible(false); // Scrolling down
+    // }
 
-    setPrevScrollPos(currentScrollPos);
+    // setPrevScrollPos(currentScrollPos);
   };
 
   useEffect(() => {
@@ -65,11 +65,11 @@ export default function Header({ onMenter, onMleave }) {
   return (
     <header
       className={`fon border-b shadow-sm sticky top-0 z-40 transform-gpu transition-transform ${
-        !visible ? "hidden" : "" // Hide the header when not visible
+        !visible ? "-translate-y-48" : "" // Hide the header when not visible
       }`}
       style={{
-        transition: "transform 2s ease-in-out", // Add a transition effect
-        transform: visible ? "translateY(0)" : "translateY(-100%)", // Move the header out of view when not visible
+        // transition: "transform 2s ease-in-out", // Add a transition effect
+        // transform: visible ? "translateY(0)" : "translateY(-100%)", // Move the header out of view when not visible
       }}
     >
       {/* desktop and tablate */}

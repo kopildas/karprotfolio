@@ -1,6 +1,7 @@
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import React, { useRef, useState } from "react";
 import "./Pro_1.css";
+import Project_1 from "./Project_1/Project_1";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 3], [-distance, distance]);
@@ -24,7 +25,19 @@ function Project({ id }) {
             className="bg-custom-green h-[90vh] p-5 z-30"
             style={{ overflow: "hidden" }} // Add overflow property to clip child content
           >
-            {isEven ? (
+             {id===1 && (
+              <Project_1 />
+            )}
+      {id===2 && (
+        <div>dfssdasdasd</div>
+              // <Project_1 />
+            )}
+      {id===3 && (
+        <div>dfsd</div>
+              // <Project_1 />
+            )}
+            
+            {/* {isEven ? (
               <motion.div
                 className="z-20 cursor-pointer h-full"
                 onMouseEnter={() => setIsHovered(true)} // Handle hover start
@@ -63,7 +76,7 @@ function Project({ id }) {
                             className={`flex items-center justify-center flex-col text-black fon1`}
                           >
                             <p className="text text-[32px] mb-4 fon2">
-                              Hi I'm Austin Bustin
+                              Hi I'm Austin Bustio
                             </p>
                             <p className="text-[18px] mb-1">
                               Product Designer by profession & passion, focusing
@@ -78,7 +91,7 @@ function Project({ id }) {
                     ) : null}
                   </div>
                 </div>
-                {/* Bottom Image */}
+               
               </motion.div>
             ) : (
               <motion.div
@@ -112,10 +125,12 @@ function Project({ id }) {
                   </div>
                 ) : null}
               </motion.div>
-            )}
+            )} */}
           </div>
         </div>
       </div>
+
+      {/* paralax effect */}
       <motion.h2
         style={{
           y, // Apply the y position based on scrolling
