@@ -86,7 +86,7 @@ export default function Pie_Project() {
           </p>
         </div>
         <div className="w-3/4 h-full p-24 border border-slate-00 rounded-2xl bg-custom-box-color flex flex-col items- justify-center">
-          <div className="flex p-40 w-full items-center justify-center object-contain mt-10 ">
+          <div className="flex md:p-5 2xl:p-40 w-full items-center justify-center object-contain mt-10 ">
             <img
               src="https://i.ibb.co/t4FmGts/Picture3.png"
               alt="Picture3"
@@ -94,7 +94,7 @@ export default function Pie_Project() {
               className="xl:w-full 2xl:w-full rounded-2xl z-20"
             />
           </div>
-          <div className="flex w-full p-40 gap- object-contain -mt-80 z-40">
+          <div className="flex w-full md:p-10 2xl:p-40 gap- object-contain 2xl:-mt-80 -mt-16 z-40">
           <div className=" bg-custom-box-color rounded-2xl z-40 -mt-14">
               <div className="bg-custom-box-color p-4 w-full rounded-2xl">
                 <img
@@ -120,46 +120,46 @@ export default function Pie_Project() {
       </section>
 
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
-          <p className="text-gray-900 text-6xl">Goal 1</p>
-          <p className="text-gray-900 text-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+          <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 1</p>
+          <p className="text-gray-900 text-xl 2xl:text-2xl">
             Clear and concise content will make easy to understand
           </p>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
-          <p className="text-gray-900 text-6xl">Goal 2</p>
-          <p className="text-gray-900 text-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+          <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 2</p>
+          <p className="text-gray-900 text-xl 2xl:text-2xl">
             Consistent design makes polished and professional look
           </p>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
-          <p className="text-gray-900 text-6xl">Goal 3</p>
-          <p className="text-gray-900 text-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+          <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 3</p>
+          <p className="text-gray-900 text-xl 2xl:text-2xl">
             Up to date with social media to connect with customers
           </p>
         </div>
       </section>
 
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
-          <p className="text-gray-900 text-6xl">My Role</p>
-          <ul className="text-2xl font-bold mt-3">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+          <p className="text-gray-900 md:text-4xl 2xl:text-6xl">My Role</p>
+          <ul className="2xl:text-2xl text-xl font-bold mt-3">
             <li>> UX Design</li>
             <li>> UI Design</li>
             <li>> UX Research</li>
           </ul>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
-          <p className="text-gray-900 text-6xl">Duration</p>
-          <ul className="text-2xl font-bold mt-3">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+          <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Duration</p>
+          <ul className="2xl:text-2xl text-xl font-bold mt-3">
             <li>> 24 Weeks</li>
             <li>> 40+ Screens</li>
           </ul>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
           <div className="mt-9">
-            <p className="text-gray-900 text-6xl">Tools</p>
-            <ul className="text-2xl font-bold mt-3">
+            <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Tools</p>
+            <ul className="2xl:text-2xl text-xl font-bold mt-3">
               <li>> Adobe XD</li>
               <li>> Google Form</li>
               <li>> Microsoft Word</li>
@@ -170,10 +170,10 @@ export default function Pie_Project() {
       </section>
 
       <section className="p-28 bg-custom-green w-full h-screen flex gap-12">
-        <div className="w-1/4 bg-green-lite flex flex-col p-14 items-start justify-center text-gray-900 rounded-2xl">
-          <p className="text-6xl font-bold">Problem</p>
+        <div className="w-1/4 bg-green-lite flex flex-col md:p-5 2xl:p-14 items-start justify-center text-gray-900 rounded-2xl">
+          <p className="2xl:text-6xl md:text-4xl font-bold">Process</p>
           <p className="text-3xl mt-10 font-semibold">
-            <ul className="text-2xl font-bold mt-3">
+            <ul className="2xl:text-2xl md:text-xl font-bold mt-3">
               <li>> Empathize with user</li>
               <li>> Define pain point</li>
               <li>> Ideate solution</li>
@@ -184,50 +184,50 @@ export default function Pie_Project() {
           </p>
         </div>
         <div className="w-3/4 h-full p-24 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
-          <p className="text-6xl font-bold">User survey</p>
-          <p className="text-3xl mt-5">
+          <p className="md:text-4xl 2xl:text-6xl font-bold">User survey</p>
+          <p className="md:text-xl 2xl:text-3xl mt-5">
             I conducted a user survey to gain valuable insights. By
             strategically posting the survey across various online communities,
             I successfully reached a diverse audience. Within just 24 hours, I
             received an impressive 35 responses.
           </p>
-          <div className="mt-10 flex items-center justify-evenly gap-8">
+          <div className="2xl:mt-10 flex items-center justify-evenly gap-8">
             <div className="flex flex-col items-center justify-center mt-5">
-              <p className="text-6xl font-bold">75%</p>
-              <p className="text-2xl font-bold">People loves to get</p>
-              <p className="text-2xl font-bold">bread, cookies and croissant</p>
+              <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
+              <p className="md:text-lg 2xl:text-2xl font-semibold">People loves to get</p>
+              <p className="md:text-lg 2xl:text-2xl font-semibold">bread, cookies and croissant</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="text-6xl font-bold">87.5%</p>
-              <p className="text-2xl font-bold">People mind it convenient</p>
+              <p className="md:text-4xl 2xl:text-6xl font-bold">87.5%</p>
+              <p className="md:text-lg 2xl:text-2xl  font-semibold">People mind it convenient</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="text-6xl font-bold">50%</p>
-              <p className="text-2xl font-bold">Age between 37-50</p>
+              <p className="md:text-4xl 2xl:text-6xl font-bold">50%</p>
+              <p className="md:text-lg 2xl:text-2xl  font-semibold">Age between 37-50</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="text-6xl font-bold">75%</p>
-              <p className="text-2xl font-bold">They female</p>
+              <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
+              <p className="md:text-lg 2xl:text-2xl  font-semibold">They female</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* persona 1 */}
-      <section className="flex items-center justify-center h-screen mt-[25rem]">
+      <section className="flex items-center justify-center h-screen md:mt-[35rem] 2xl:mt-[25rem]">
         <div className="w-2/5 rounded-2xl bg-custom-green flex flex-col p-10">
-          <p className="text-6xl font-bold">Persona</p>
+          <p className="md:text-4xl 2xl:text-6xl font-black">Persona</p>
           <div className="flex mt-10 gap-10">
             <img
               src="https://i.ibb.co/0XYGQWv/Persona-1.png"
               alt="Persona-1"
               border="0"
-              className=" object-cover h-96 rounded-3xl"
+              className=" object-cover md:h-72 2xl:h-96 rounded-3xl"
             />
 
-            <div className=" p-10 bg-green-lite rounded-3xl">
-              <p className="text-4xl font-bold">Background</p>
-              <p className="text-xl font-bold mt-5">
+            <div className=" 2xl:p-10 md:p-5 bg-green-lite rounded-3xl">
+              <p className="md:text-3xl 2xl:text-4xl  font-bold">Background</p>
+              <p className="2xl:text-xl md:text-sm font-bold mt-5">
                 Dipto is a full time HR student at Georgia State University.
                 During his busy schedule, he sometimes likes to order online,
                 but products listed for sale in store aren’t on the website.
@@ -239,40 +239,40 @@ export default function Pie_Project() {
 
           <div className="flex gap-10 mt-5">
             <div className="flex flex-col">
-              <div className="bg-green-lite rounded-3xl p-10 font-bold">
-                <p className="mb-5 text-4xl font-black">
+              <div className="bg-green-lite rounded-3xl md:p-5 2xl:p-10 font-bold">
+                <p className="mb-5 md:text-3xl 2xl:text-4xl  font-black">
                   Dipto <br /> Nag,23
                 </p>
-                <p className="mt-2 text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold">
                   Occupation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <span className="font-black text-xl">Student</span>
+                  <span className="font-black 2xl:text-xl">Student</span>
                 </p>
-                <p className="mt-2 text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold">
                   Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <span className="font-black text-xl">Single</span>
+                  <span className="font-black 2xl:text-xl">Single</span>
                 </p>
-                <p className="mt-2 text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold">
                   Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <span className="font-black text-xl">Atlanta</span>
+                  <span className="font-black 2xl:text-xl">Atlanta</span>
                 </p>
-                <p className="mt-2 text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold">
                   Tech Literte&nbsp;&nbsp;&nbsp;&nbsp;
-                  <span className="font-black text-xl">Average</span>
+                  <span className="font-black 2xl:text-xl">Average</span>
                 </p>
               </div>
-              <div className="bg-green-lite rounded-3xl p-10 mt-10 font-bold w-80">
+              <div className="bg-green-lite rounded-3xl md:p-5 2xl:p-10 mt-10 font-bold 2xl:w-80">
                 <div className="flex items-center justify-between">
-                  <p className="text-4xl font-black mb-5"> Quote</p>
+                  <p className="md:text-3xl 2xl:text-4xl  font-black mb-5"> Quote</p>
                   <FaQuoteRight className="text-4xl -mt-3 text-blue-600" />
                 </div>
-                <p className="text-2xl italic font-bold">
+                <p className="2xl:text-2xl italic font-bold">
                   Adding more meat items to the menu can push the protein intake
                 </p>
               </div>
-              <div className="bg-green-lite rounded-3xl p-10 mt-10 font-bold w-80">
-                <p className="text-4xl font-black mb-5">Personality</p>
+              <div className="bg-green-lite rounded-3xl md:p-5 2xl:p-10 mt-10 font-bold 2xl:w-80">
+                <p className="md:text-3xl 2xl:text-4xl  font-black mb-5">Personality</p>
 
-                <div className="flex gap-3">
+                <div className="flex md:hidden gap-3">
                   <p className="text-xl bg-white w-fit p-4 rounded-3xl font-bold">
                     Adding
                   </p>
@@ -280,7 +280,7 @@ export default function Pie_Project() {
                     Kindness
                   </p>
                 </div>
-                <p className="text-xl bg-white w-fit p-4 rounded-3xl font-bold mt-4">
+                <p className="text-xl md:hidden bg-white w-fit p-4 rounded-3xl font-bold mt-4">
                   Loyality
                 </p>
               </div>
@@ -328,7 +328,7 @@ export default function Pie_Project() {
       </section>
 
       {/* persona 2 */}
-      <section className="flex items-center justify-center h-screen mt-[40rem]">
+      <section className="flex items-center justify-center h-screen md:mt-[58rem] 2xl:mt-[45rem]">
         <div className="w-2/5 rounded-2xl bg-custom-green flex flex-col p-10">
           {/* <p className="text-6xl font-bold">Persona</p> */}
           <div className="flex mt-10 gap-10">
