@@ -26,7 +26,7 @@ export default function Pie_Project() {
       <section className="p-16 bg-custom-green h-screen w-full flex gap-12">
         <div
           
-          className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl flex items-center justify-center font-black custom-text-color"
+          className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-8xl flex items-center justify-center font-black custom-text-color"
         >
           Pie Chart
         </div>
@@ -51,7 +51,7 @@ export default function Pie_Project() {
               src="https://i.ibb.co/K582r7X/Pie-cpver-Picture-3-removebg-preview.png"
               alt="Pie-cpver-Picture-3-removebg-preview"
               border="0"
-              className="xl:w-full 2xl:w-full"
+              className="xl:w-full 2xl:w-1/2"
             />
           </div>
         </div>
