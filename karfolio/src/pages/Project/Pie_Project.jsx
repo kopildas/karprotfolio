@@ -25,15 +25,12 @@ export default function Pie_Project() {
     <div className="fon">
       <section className="p-16 bg-custom-green h-screen w-full flex gap-12">
         <div
-          style={{
-            fontSize: "11rem",
-            fontWeight: 900,
-            textShadow: "1px 1px 1px #000" /* Add other styles as needed */,
-          }}
-          className="w-1/2 text md:text-9xl flex items-center justify-center text-9xl font-bl custom-text-color"
+          
+          className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl flex items-center justify-center font-black custom-text-color"
         >
           Pie Chart
         </div>
+
         <div className="w-1/2 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <div className="flex object-contain">
             <img
@@ -62,12 +59,8 @@ export default function Pie_Project() {
 
       <section className="p-16 bg-custom-green w-full flex flex-col gap-12">
         <div
-          className="w-full flex items-center justify-center text-9xl font-bl custom-text-color"
-          style={{
-            fontSize: "11rem",
-            fontWeight: 900,
-            textShadow: "1px 1px 1px #000" /* Add other styles as needed */,
-          }}
+          className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color"
+          
         >
           <p>Project Overview</p>
         </div>
@@ -83,7 +76,7 @@ export default function Pie_Project() {
       </section>
 
       <section className="p-28 bg-custom-green w-full h-screen flex gap-12">
-        <div className="w-1/4 bg-slate-100 flex flex-col 2xl:p-14 md:p-10 items-start justify-center text-gray-900 rounded-2xl">
+        <div className="w-1/4 bg-slate-100 flex flex-col 2xl:p-10 md:p-10 items-start justify-center text-gray-900 rounded-2xl">
           <p className="2xl:text-6xl md:text-5xl font-bold">Problem</p>
           <p className="2xl:text-3xl md:text-sm mt-10 font-semibold">
             Bakery websites may encounter common challenges that can hinder
@@ -102,13 +95,17 @@ export default function Pie_Project() {
             />
           </div>
           <div className="flex w-full p-40 gap- object-contain -mt-80 z-40">
-            <img
-              src="https://i.ibb.co/dpDzsjv/Problem-Picture-2.png"
-              alt="Problem-Picture-2"
-              border="0"
-              className="w-1/2 object-contain -mt-36 rounded-2xl"
-            />
-            <div className=" bg-custom-box-color rounded-2xl z-40 -mt-40">
+          <div className=" bg-custom-box-color rounded-2xl z-40 -mt-14">
+              <div className="bg-custom-box-color p-4 w-full rounded-2xl">
+                <img
+                  src="https://i.ibb.co/dpDzsjv/Problem-Picture-2.png"
+                  alt="Problem-Picture-2"
+                  border="0"
+                  className="w-full rounded-2xl"
+                />
+              </div>
+            </div>
+            <div className=" bg-custom-box-color rounded-2xl z-40 -mt-24">
               <div className="bg-custom-box-color p-4 w-full rounded-2xl">
                 <img
                   src="https://i.ibb.co/FgyQLZ2/Problem-Picture-3.png"
@@ -215,8 +212,7 @@ export default function Pie_Project() {
           </div>
         </div>
       </section>
-      
-      
+
       {/* persona 1 */}
       <section className="flex items-center justify-center h-screen mt-[25rem]">
         <div className="w-2/5 rounded-2xl bg-custom-green flex flex-col p-10">
@@ -331,8 +327,7 @@ export default function Pie_Project() {
         </div>
       </section>
 
-
-{/* persona 2 */}
+      {/* persona 2 */}
       <section className="flex items-center justify-center h-screen mt-[40rem]">
         <div className="w-2/5 rounded-2xl bg-custom-green flex flex-col p-10">
           {/* <p className="text-6xl font-bold">Persona</p> */}
@@ -365,7 +360,10 @@ export default function Pie_Project() {
                 </p>
                 <p className="mt-2 text-lg font-semibold">
                   Occupation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <span className="font-black text-xl">Data <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;analyst</span>
+                  <span className="font-black text-xl">
+                    Data <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;analyst
+                  </span>
                 </p>
                 <p className="mt-2 text-lg font-semibold">
                   Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -373,7 +371,11 @@ export default function Pie_Project() {
                 </p>
                 <p className="mt-2 text-lg font-semibold">
                   Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <span className="font-black text-xl">Atlanta, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Georgia</span>
+                  <span className="font-black text-xl">
+                    Atlanta, <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Georgia
+                  </span>
                 </p>
                 <p className="mt-2 text-lg font-semibold">
                   Tech Literte&nbsp;&nbsp;&nbsp;&nbsp;
@@ -717,144 +719,262 @@ export default function Pie_Project() {
             </p>
             <div className="flex mt-10 items-center justify-center gap-4 text-6xl">
               <div className="flex flex-col gap-10 items-center justify-center">
-              <IoMdRewind className="text-gray-500"/>
-              <FaApplePay className="text-9xl"/> 
+                <IoMdRewind className="text-gray-500" />
+                <FaApplePay className="text-9xl" />
               </div>
               <div className="flex flex-col gap-10 mt-20 items-center justify-center">
-              <MdDelete className="text-8xl text-gray-500"/>
-              <FaArrowAltCircleRight className="text-4xl"/>
+                <MdDelete className="text-8xl text-gray-500" />
+                <FaArrowAltCircleRight className="text-4xl" />
               </div>
               <div className="flex flex-col gap-10 items-center justify-center -mt-16">
-              <AiFillQuestionCircle className="text-5xl"/> 
-              <FaCreditCard className="text-7xl"/>
+                <AiFillQuestionCircle className="text-5xl" />
+                <FaCreditCard className="text-7xl" />
               </div>
               <div className="flex flex-col gap-10">
-              <MdOutlineCancel />
-              <FaGooglePay className="text-8xl"/> 
+                <MdOutlineCancel />
+                <FaGooglePay className="text-8xl" />
               </div>
               <div className="flex flex-col gap-10 items-center justify-center">
-              <FaRegArrowAltCircleDown className="text-5xl"/> 
-              <FaPaypal className="text-8xl"/>
+                <FaRegArrowAltCircleDown className="text-5xl" />
+                <FaPaypal className="text-8xl" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
       <section className="p-28 flex flex-col bg-custom-green w-full h-screen gap-12">
-      <p className="text-7xl font-black">Site Map</p>
+        <p className="text-7xl font-black">Site Map</p>
       </section>
 
       {/* Paper Wire-frames */}
       <section className="p-28 flex flex-col bg-custom-green w-full h-full gap-12">
-      <p className="text-7xl font-black">Paper Wire-frames</p>
-      <div className="flex flex-wrap items-center justify-center">
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Cake Details</p>
-          <img src="https://i.ibb.co/QQMJt8q/Cake-details.png" alt="Cake-details" border="0" className="w-96 max-h-screen"/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Contact Us</p>
-          <img src="https://i.ibb.co/HpT37xF/Contact-us.png" alt="Contact-us" border="0" className="w-96 max-h-screen"/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Occasion</p>
-          <img src="https://i.ibb.co/FXkzmsV/Occasion.png" alt="Occasion" border="0" className="w-96 max-h-screen"/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Catering</p>
-          <img src="https://i.ibb.co/K76Sc66/Catering.png" alt="Catering" border="0" className="w-96 max-h-screen"/></div>
-      </div>
-      <div className="flex flex-wrap items-center justify-center mt-10">
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">About</p>
-          <img src="https://i.ibb.co/G2BmyF1/About.png" alt="About" border="0" className="w-96 max-h-screen"/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Add to the Basket</p>
-          <img src="https://i.ibb.co/Nm0Hc8R/Add-to-the-cart.png" alt="Add-to-the-cart" border="0" className="w-96 max-h-screen"/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Cakes</p>
-          <img src="https://i.ibb.co/TtL5t53/cake.png" alt="cake" border="0" className="w-96 max-h-screen"/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Home</p>
-          <img src="https://i.ibb.co/hZ2FXwS/home.png" alt="home" border="0" className="w-96 max-h-screen"/></div>
-      </div>
+        <p className="text-7xl font-black">Paper Wire-frames</p>
+        <div className="flex flex-wrap items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Cake Details</p>
+            <img
+              src="https://i.ibb.co/QQMJt8q/Cake-details.png"
+              alt="Cake-details"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Contact Us</p>
+            <img
+              src="https://i.ibb.co/HpT37xF/Contact-us.png"
+              alt="Contact-us"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Occasion</p>
+            <img
+              src="https://i.ibb.co/FXkzmsV/Occasion.png"
+              alt="Occasion"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Catering</p>
+            <img
+              src="https://i.ibb.co/K76Sc66/Catering.png"
+              alt="Catering"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+        </div>
+        <div className="flex flex-wrap items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">About</p>
+            <img
+              src="https://i.ibb.co/G2BmyF1/About.png"
+              alt="About"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Add to the Basket</p>
+            <img
+              src="https://i.ibb.co/Nm0Hc8R/Add-to-the-cart.png"
+              alt="Add-to-the-cart"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Cakes</p>
+            <img
+              src="https://i.ibb.co/TtL5t53/cake.png"
+              alt="cake"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Home</p>
+            <img
+              src="https://i.ibb.co/hZ2FXwS/home.png"
+              alt="home"
+              border="0"
+              className="w-96 max-h-screen"
+            />
+          </div>
+        </div>
       </section>
-
-
 
       {/* Digital Wire-frames */}
       <section className="p-28 flex flex-col bg-custom-green w-full h-full gap-12">
-      <p className="text-7xl font-black">Digital Wire-frames</p>
-      <div className="flex w-full gap-10 items-center justify-center">
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Cake Details</p>
-          <img src="https://i.ibb.co/vVNCPYQ/digital-cake-details.png" alt="digital-cake-details" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Contact Us</p>
-          <img src="https://i.ibb.co/8jF6Gg7/Digital-contact-us.png" alt="Digital-contact-us" border="0" className=" max-h-screen "/></div>
-      </div>
+        <p className="text-7xl font-black">Digital Wire-frames</p>
+        <div className="flex w-full gap-10 items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Cake Details</p>
+            <img
+              src="https://i.ibb.co/vVNCPYQ/digital-cake-details.png"
+              alt="digital-cake-details"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Contact Us</p>
+            <img
+              src="https://i.ibb.co/8jF6Gg7/Digital-contact-us.png"
+              alt="Digital-contact-us"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
 
+        <div className="flex w-full gap-10 items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Occasion</p>
+            <img
+              src="https://i.ibb.co/B3L6tNS/Digital-occasion.png"
+              alt="Digital-occasion"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Catering</p>
+            <img
+              src="https://i.ibb.co/txsgjJR/Digital-cateringpng.png"
+              alt="Digital-cateringpng"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
 
-      <div className="flex w-full gap-10 items-center justify-center mt-10">
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Occasion</p>
-          <img src="https://i.ibb.co/B3L6tNS/Digital-occasion.png" alt="Digital-occasion" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Catering</p>
-          <img src="https://i.ibb.co/txsgjJR/Digital-cateringpng.png" alt="Digital-cateringpng" border="0" className=" max-h-screen "/></div>
-      </div>
+        <div className="flex w-full gap-10 items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">About</p>
+            <img
+              src="https://i.ibb.co/nsV9p4Q/Digital-about.png"
+              alt="Digital-about"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Add to the Basket</p>
+            <img
+              src="https://i.ibb.co/RDH4PBV/Digital-add-to-basket.png"
+              alt="Digital-add-to-basket"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
 
-
-
-      <div className="flex w-full gap-10 items-center justify-center mt-10">
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">About</p>
-          <img src="https://i.ibb.co/nsV9p4Q/Digital-about.png" alt="Digital-about" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Add to the Basket</p>
-          <img src="https://i.ibb.co/RDH4PBV/Digital-add-to-basket.png" alt="Digital-add-to-basket" border="0" className=" max-h-screen "/></div>
-      </div>
-
-
-      <div className="flex w-full gap-10 items-center justify-center mt-10">
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Cakes</p>
-          <img src="https://i.ibb.co/zVLvhYc/Digital-cakes.png" alt="Digital-cakes" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-black">Home</p>
-          <img src="https://i.ibb.co/xHTGpcX/Digital-home.png" alt="Digital-home" border="0" className=" max-h-screen "/></div>
-      </div>
-      
+        <div className="flex w-full gap-10 items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Cakes</p>
+            <img
+              src="https://i.ibb.co/zVLvhYc/Digital-cakes.png"
+              alt="Digital-cakes"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-black">Home</p>
+            <img
+              src="https://i.ibb.co/xHTGpcX/Digital-home.png"
+              alt="Digital-home"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
       </section>
-
 
       {/* High-Fidelity Wire-frames */}
       <section className="p-28 flex flex-col bg-custom-green w-full h-full gap-12">
-      <p className="text-7xl font-black mb-10">High-Fidelity Wire-frames</p>
-      <div className="flex w-full gap-5 items-center justify-center">
-        <div className="flex flex-col items-center justify-center">
-        <img src="https://i.ibb.co/G5CTs2y/pi-Picture1.png" alt="pi-Picture1" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-        <img src="https://i.ibb.co/Vgf0g5k/pi-Picture2.png" alt="pi-Picture2" border="0" className=" max-h-screen "/></div>
-      </div>
+        <p className="text-7xl font-black mb-10">High-Fidelity Wire-frames</p>
+        <div className="flex w-full gap-5 items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="https://i.ibb.co/G5CTs2y/pi-Picture1.png"
+              alt="pi-Picture1"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="https://i.ibb.co/Vgf0g5k/pi-Picture2.png"
+              alt="pi-Picture2"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
 
+        <div className="flex w-full gap-5 items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="https://i.ibb.co/X2fS4xN/pi-Picture3.png"
+              alt="pi-Picture3"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="https://i.ibb.co/wBVjpxX/pi-Picture4.png"
+              alt="pi-Picture4"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
 
-      <div className="flex w-full gap-5 items-center justify-center mt-10">
-        <div className="flex flex-col items-center justify-center">
-        <img src="https://i.ibb.co/X2fS4xN/pi-Picture3.png" alt="pi-Picture3" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-        <img src="https://i.ibb.co/wBVjpxX/pi-Picture4.png" alt="pi-Picture4" border="0" className=" max-h-screen "/></div>
-      </div>
-
-
-
-      <div className="flex w-full gap-5 items-center justify-center mt-10">
-        <div className="flex flex-col items-center justify-center">
-        <img src="https://i.ibb.co/bX6yxQs/Mac-Book-Air.png" alt="Mac-Book-Air" border="0" className=" max-h-screen "/></div>
-        <div className="flex flex-col items-center justify-center">
-        <img src="https://i.ibb.co/XJ8xp9S/Mac-Book-Air-1.png" alt="Mac-Book-Air-1" border="0" className=" max-h-screen "/></div>
-      </div>
-
-      
+        <div className="flex w-full gap-5 items-center justify-center mt-10">
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="https://i.ibb.co/bX6yxQs/Mac-Book-Air.png"
+              alt="Mac-Book-Air"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <img
+              src="https://i.ibb.co/XJ8xp9S/Mac-Book-Air-1.png"
+              alt="Mac-Book-Air-1"
+              border="0"
+              className=" max-h-screen "
+            />
+          </div>
+        </div>
       </section>
     </div>
   );

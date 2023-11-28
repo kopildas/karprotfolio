@@ -14,9 +14,11 @@
 }
 
 .custom-font {
-  font-weight: 900 !important; /* Specify the desired font weight */
-  /* Add other styles as needed */
+  font-size: 11rem;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #000; /* Add other styles as needed */
 }
+
 
 
 
