@@ -1,20 +1,20 @@
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa6";
 
-import { SiNetflix } from "react-icons/si";
+import { BsLaptopFill } from "react-icons/bs";
 import {
-  FaMobile,
   FaApplePay,
   FaArrowAltCircleRight,
   FaCreditCard,
-  FaGooglePay,
-  FaRegArrowAltCircleDown,
-  FaPaypal,
   FaFacebookF,
+  FaGooglePay,
   FaInstagram,
+  FaMobile,
+  FaPaypal,
+  FaRegArrowAltCircleDown,
 } from "react-icons/fa";
-import { BsLaptopFill } from "react-icons/bs";
 import { IoMdRewind } from "react-icons/io";
+import { SiNetflix } from "react-icons/si";
 
 import { MdDelete, MdOutlineCancel } from "react-icons/md";
 
@@ -24,10 +24,7 @@ export default function Pie_Project() {
   return (
     <div className="fon">
       <section className="p-16 bg-custom-green h-screen w-full flex gap-12">
-        <div
-          
-          className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-8xl flex items-center justify-center font-black custom-text-color"
-        >
+        <div className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-6xl flex items-center justify-center font-black custom-text-color">
           Pie Chart
         </div>
 
@@ -51,17 +48,14 @@ export default function Pie_Project() {
               src="https://i.ibb.co/K582r7X/Pie-cpver-Picture-3-removebg-preview.png"
               alt="Pie-cpver-Picture-3-removebg-preview"
               border="0"
-              className="xl:w-full 2xl:w-1/2"
+              className="xl:w-full 2xl:w-full"
             />
           </div>
         </div>
       </section>
 
       <section className="p-16 bg-custom-green w-full flex flex-col gap-12">
-        <div
-          className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color"
-          
-        >
+        <div className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color">
           <p>Project Overview</p>
         </div>
 
@@ -95,7 +89,7 @@ export default function Pie_Project() {
             />
           </div>
           <div className="flex w-full md:p-10 2xl:p-40 gap- object-contain 2xl:-mt-80 -mt-16 z-40">
-          <div className=" bg-custom-box-color rounded-2xl z-40 -mt-14">
+            <div className=" bg-custom-box-color rounded-2xl z-40 -mt-14">
               <div className="bg-custom-box-color p-4 w-full rounded-2xl">
                 <img
                   src="https://i.ibb.co/dpDzsjv/Problem-Picture-2.png"
@@ -194,20 +188,30 @@ export default function Pie_Project() {
           <div className="2xl:mt-10 flex items-center justify-evenly gap-8">
             <div className="flex flex-col items-center justify-center mt-5">
               <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
-              <p className="md:text-lg 2xl:text-2xl font-semibold">People loves to get</p>
-              <p className="md:text-lg 2xl:text-2xl font-semibold">bread, cookies and croissant</p>
+              <p className="md:text-lg 2xl:text-2xl font-semibold">
+                People loves to get
+              </p>
+              <p className="md:text-lg 2xl:text-2xl font-semibold">
+                bread, cookies and croissant
+              </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">87.5%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold">People mind it convenient</p>
+              <p className="md:text-lg 2xl:text-2xl  font-semibold">
+                People mind it convenient
+              </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">50%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold">Age between 37-50</p>
+              <p className="md:text-lg 2xl:text-2xl  font-semibold">
+                Age between 37-50
+              </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold">They female</p>
+              <p className="md:text-lg 2xl:text-2xl  font-semibold">
+                They female
+              </p>
             </div>
           </div>
         </div>
@@ -262,7 +266,10 @@ export default function Pie_Project() {
               </div>
               <div className="bg-green-lite rounded-3xl md:p-5 2xl:p-10 mt-10 font-bold 2xl:w-80">
                 <div className="flex items-center justify-between">
-                  <p className="md:text-3xl 2xl:text-4xl  font-black mb-5"> Quote</p>
+                  <p className="md:text-3xl 2xl:text-4xl  font-black mb-5">
+                    {" "}
+                    Quote
+                  </p>
                   <FaQuoteRight className="text-4xl -mt-3 text-blue-600" />
                 </div>
                 <p className="2xl:text-2xl italic font-bold">
@@ -270,7 +277,9 @@ export default function Pie_Project() {
                 </p>
               </div>
               <div className="bg-green-lite rounded-3xl md:p-5 2xl:p-10 mt-10 font-bold 2xl:w-80">
-                <p className="md:text-3xl 2xl:text-4xl  font-black mb-5">Personality</p>
+                <p className="md:text-3xl 2xl:text-4xl  font-black mb-5">
+                  Personality
+                </p>
 
                 <div className="flex md:hidden gap-3">
                   <p className="text-xl bg-white w-fit p-4 rounded-3xl font-bold">

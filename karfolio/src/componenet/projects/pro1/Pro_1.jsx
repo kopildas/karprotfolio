@@ -2,6 +2,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import React, { useRef, useState } from "react";
 import "./Pro_1.css";
 import Project_1 from "./Project_1/Project_1";
+import Project_2 from "../Project_2/Project_2";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 3], [-distance, distance]);
@@ -29,7 +30,7 @@ function Project({ id }) {
               <Project_1 />
             )}
       {id===2 && (
-        <div>dfssdasdasd</div>
+        <Project_2/>
               // <Project_1 />
             )}
       {id===3 && (
