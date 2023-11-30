@@ -11,6 +11,9 @@ export default function Project_2() {
                 className="z-20 cursor-pointer h-full"
                 onMouseEnter={() => setIsHovered(true)} // Handle hover start
                 onMouseLeave={() => setIsHovered(false)} // Handle hover end
+                onClick={() => {
+                  navigate("/project/2");
+                }}
               >
                 <div className="flex  justify-center items-center h-screen">
                   <div className="relative group w-full h-full transition-transform transform-gpu">

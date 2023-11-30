@@ -4,13 +4,15 @@
   padding: 1rem;
   text-align: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,700&display=swap');
+
 .fon {
-    font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
 }
 
 .custom-text-color {
-  text-decoration: #2D1339;
+  text-decoration: #2d1339;
 }
 
 .custom-font {
@@ -18,9 +20,6 @@
   font-weight: 900;
   text-shadow: 1px 1px 1px #000; /* Add other styles as needed */
 }
-
-
-
 
 .logo {
   height: 6em;

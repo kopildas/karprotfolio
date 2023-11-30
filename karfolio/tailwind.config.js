@@ -19,6 +19,7 @@ module.exports = {
         'custom-slate-2': '#B6B6B6',
         'custom-slate-3': '#707070',
         'custom-gr': '#32CD32',
+        'back-box-1': 'rgb(229,199,137)'
       },
       
     },
