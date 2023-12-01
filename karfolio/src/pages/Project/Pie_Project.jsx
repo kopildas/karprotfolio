@@ -1031,6 +1031,12 @@ export default function Pie_Project() {
         </div>
       </section>
       
+
+      <section className="p-28 flex flex-col bg-custom-green w-full h-screen gap-12 items-center justify-center">
+        <p className="text-9xl font-black text-gray-800">THANK YOU</p>
+      </section>
+
+      
     </div>
   );
 }

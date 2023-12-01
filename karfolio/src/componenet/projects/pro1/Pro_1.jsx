@@ -21,7 +21,7 @@ function Project({ id }) {
   return (
     <section>
       <div>
-        <div className="md:p-16 p-5 m-5 md:m-20">
+        <div className="md:p-16 p-5 md:m-20 2xl:m-44">
           <div
             ref={ref}
             className="bg-custom-green h-[90vh] p-5 z-30"

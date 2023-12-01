@@ -19,38 +19,38 @@ export default function Project_2() {
                   <div className="relative group w-full h-full transition-transform transform-gpu">
                     <div className={`-z-30`}>
                       <img
-                        src={`/images/mob_.png`}
+                        src={`https://i.ibb.co/3Fq8cN3/title.png`}
                         alt="Image 1"
                         className="absolute w-[900px] h-[900px] object-cover transform-gpu transition-transform group-hover:-translate-y-48 -top-[450px] -right-44"
                       />
                       <img
-                        src={`/images/mobRota_.png`}
+                        src={`https://i.ibb.co/3Fq8cN3/title.png`}
                         alt="Image 2"
-                        className="absolute w-[900px] -bottom-[350px] -left-44 h-[900px]  object-cover transform-gpu transition-transform group-hover:translate-y-48"
+                        className="absolute w-[900px] -bottom-[380px] -left-44 h-[900px]  object-cover transform-gpu transition-transform group-hover:translate-y-48"
                       />
                     </div>
 
                     {isHovered ? (
                       <div className="">
                         <div
-                          className={`w-[950px] h-[500px] top-7 left-9 absolute z-40 ${
+                          className={`md:w-[950px] md:h-[500px] 2xl:w-[1250px] 2xl:h-4/5 md:top-7 md:left-9 md:absolute md:z-40 ${
                             isHovered ? "flex" : "hidden"
                           } items-center justify-center text-white transition duration-75 ease-in-out rounded-lg`}
                           style={{
                             backdropFilter: isHovered
                               ? "blur(10px) brightness(90%)"
-                              : "none", // Adjust blur and brightness values as needed
-                            backgroundColor: "rgba(149, 138, 138, 0.5)", // Change the background color and its opacity
+                              : "none", // Adjust blur andrgb(54, 75, 68) brightness values as needed
+                            backgroundColor: "rgba(54, 75, 68, 0.5)", // Change the background color and its opacity
                             borderRadius: "20px",
                           }}
                         >
                           <div
                             className={`flex items-center justify-center flex-col text-black fon1`}
                           >
-                            <p className="text text-[32px] mb-4 fon2">
+                            <p className="text text-7xl mb-4 fon2">
                             Backstore Pro
                             </p>
-                            <p className="text-[18px] mb-1">
+                            <p className="text-2xl mb-1">
                             An eCommerce mobile application for building custom computers
                             </p>
                             
