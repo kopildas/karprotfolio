@@ -30,27 +30,12 @@ export default function Pie_Project() {
 
         <div className="w-1/2 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <div className="flex object-contain">
-            <img
-              src="https://i.ibb.co/zXMYCW1/Picture1-removebg-preview.png"
-              alt="Picture1-removebg-preview"
-              border="0"
-              className="w-1/2"
+          <img src="https://i.ibb.co/37ZqCS0/Title-photos-removebg-preview.png" alt="Title-photos-removebg-preview" border="0"
+              className="p-10"
             />
-            <img
-              src="https://i.ibb.co/3RQM4w4/Pie-cover-Picture-2-removebg-preview.png"
-              alt="Pie-cover-Picture-2-removebg-preview"
-              border="0"
-              className="w-1/2"
-            />
+            
           </div>
-          <div className="flex items-center justify-center 2xl:-mt-24 xl:-mt-16 ">
-            <img
-              src="https://i.ibb.co/K582r7X/Pie-cpver-Picture-3-removebg-preview.png"
-              alt="Pie-cpver-Picture-3-removebg-preview"
-              border="0"
-              className="xl:w-full 2xl:w-full"
-            />
-          </div>
+
         </div>
       </section>
 
