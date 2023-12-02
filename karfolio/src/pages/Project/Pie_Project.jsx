@@ -28,7 +28,7 @@ export default function Pie_Project() {
           Pie Chart
         </div>
 
-        <div className="w-1/2 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
+        <div className="w-1/2 border shadow-2xl rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <div className="flex object-contain">
           <img src="https://i.ibb.co/37ZqCS0/Title-photos-removebg-preview.png" alt="Title-photos-removebg-preview" border="0"
               className="p-10"
@@ -40,12 +40,12 @@ export default function Pie_Project() {
       </section>
 
       {/* Project Overview */}
-      <section className="p-16 bg-custom-green w-full flex flex-col gap-12">
-        <div className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color">
+      <section className="p-16 bg-custom-green  w-full flex flex-col gap-12">
+        <div className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color ">
           <p>Project Overview</p>
         </div>
 
-        <div className="p-16 mt-16 border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center">
+        <div className="p-16 mt-16 border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center shadow-xl">
           <p className="2xl:text-5xl md:text-xl font-medium text-gray-700">
             Pie Chart is designed to sell all types of baked goods and
             beverages. It is a comprehensive and user-friendly platform that
@@ -72,7 +72,7 @@ export default function Pie_Project() {
               src="https://i.ibb.co/t4FmGts/Picture3.png"
               alt="Picture3"
               border="0"
-              className="xl:w-full 2xl:w-full rounded-2xl z-20"
+              className="xl:w-full 2xl:w-full rounded-2xl z-20 shadow-xl"
             />
           </div>
           <div className="flex w-full md:p-10 2xl:p-40 gap- object-contain 2xl:-mt-80 -mt-16 z-40">
@@ -82,7 +82,7 @@ export default function Pie_Project() {
                   src="https://i.ibb.co/dpDzsjv/Problem-Picture-2.png"
                   alt="Problem-Picture-2"
                   border="0"
-                  className="w-full rounded-2xl"
+                  className="w-full rounded-2xl shadow-xl"
                 />
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Pie_Project() {
                   src="https://i.ibb.co/FgyQLZ2/Problem-Picture-3.png"
                   alt="Problem-Picture-3"
                   border="0"
-                  className="w-full rounded-2xl"
+                  className="w-full rounded-2xl shadow-xl"
                 />
               </div>
             </div>
@@ -102,19 +102,19 @@ export default function Pie_Project() {
 
       {/* goal boxes */}
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
-        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 1</p>
           <p className="text-gray-900 text-xl 2xl:text-2xl">
             Clear and concise content will make easy to understand
           </p>
         </div>
-        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 2</p>
           <p className="text-gray-900 text-xl 2xl:text-2xl">
             Consistent design makes polished and professional look
           </p>
         </div>
-        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 3</p>
           <p className="text-gray-900 text-xl 2xl:text-2xl">
             Up to date with social media to connect with customers
@@ -124,7 +124,7 @@ export default function Pie_Project() {
 
       {/* 3 box my role */}
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">My Role</p>
           <ul className="2xl:text-2xl text-xl font-bold mt-3">
             <li>> UX Design</li>
@@ -132,14 +132,14 @@ export default function Pie_Project() {
             <li>> UX Research</li>
           </ul>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Duration</p>
           <ul className="2xl:text-2xl text-xl font-bold mt-3">
             <li>> 24 Weeks</li>
             <li>> 40+ Screens</li>
           </ul>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <div className="mt-9">
             <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Tools</p>
             <ul className="2xl:text-2xl text-xl font-bold mt-3">

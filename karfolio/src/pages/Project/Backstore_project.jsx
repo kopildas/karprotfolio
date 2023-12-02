@@ -35,7 +35,7 @@ export default function Backstore_project() {
           Backstore Pro
         </div>
 
-        <div className="w-1/2 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
+        <div className="w-1/2 border shadow-2xl rounded-2xl bg-green-lite flex flex-col items-center justify-center p-10">
           <div className="flex object-contain">
             <img
               src="https://i.ibb.co/3s9xgq0/back-1-removebg-preview.png"
@@ -73,7 +73,7 @@ export default function Backstore_project() {
           <p>Project Overview</p>
         </div>
 
-        <div className="p-16 mt-16 font-bold border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center">
+        <div className="p-16 mt-16 font-bold border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center shadow-xl">
           <p className="2xl:text-5xl md:text-2xl">
             Backstore Pro is an eCommerce mobile application where users will be
             able to buy quality products at the best price and conveniently.
@@ -96,13 +96,13 @@ export default function Backstore_project() {
               src="https://i.ibb.co/gT91kHy/back-prob-1.png"
               alt="back-prob-1"
               border="0"
-              className="xl: 2xl:w-full rounded-2xl z-20"
+              className="xl: 2xl:w-full rounded-2xl z-20 shadow-xl"
             />
             <img
               src="https://i.ibb.co/Jx6819B/back-prob-2.png"
               alt="back-prob-2"
               border="0"
-              className="xl: 2xl:w-full rounded-2xl z-20"
+              className="xl: 2xl:w-full rounded-2xl z-20 shadow-xl"
             />
           </div>
         </div>
@@ -110,13 +110,13 @@ export default function Backstore_project() {
 
       {/* goal boxes */}
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
-        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 1</p>
           <p className="text-gray-900 text-xl 2xl:text-2xl">
             Offer access to highly Desirable Hardware Components
           </p>
         </div>
-        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 2</p>
           <p className="text-gray-900 text-xl 2xl:text-2xl">
             Provide Competitive and Reasonable Pricing
@@ -126,7 +126,7 @@ export default function Backstore_project() {
 
       {/* 3 box my role */}
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">My Role</p>
           <ul className="2xl:text-2xl text-xl font-bold mt-3">
             <li>
@@ -135,14 +135,14 @@ export default function Backstore_project() {
             </li>
           </ul>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Duration</p>
           <ul className="2xl:text-2xl text-xl font-bold mt-3">
             <li>• 4 Weeks</li>
             <li>• 22+ Screens</li>
           </ul>
         </div>
-        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 rounded-2xl">
+        <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <div className="mt-9">
             <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Tools</p>
             <ul className="2xl:text-2xl text-xl font-bold mt-3">
@@ -174,7 +174,7 @@ export default function Backstore_project() {
         </div>
         <div className="w-3/4 h-full 2xl:p-24 md:p-10 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <p className="md:text-4xl 2xl:text-6xl font-bold">User survey</p>
-          <p className="md:text-xl 2xl:text-3xl mt-5">
+          <p className="md:text-xl text-gray-700 2xl:text-3xl mt-5">
             The quantitative research consisted of ten survey participants who
             are comfortable inserting card information online, and who like to
             shop online. Following are the survey questions and responses:

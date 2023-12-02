@@ -15,7 +15,7 @@ export default function Contact() {
             <input type="text" className='h-8 mt-8 w-96 border border-b-gray-500 bg-custom-green' placeholder='Your Email' />
             <textarea name="postContent" rows={4} cols={40} className='h-8 mt-8 w-96 border border-b-gray-500 bg-custom-green' placeholder='Share Your Thoughts' />
 
-            <button type="submit" className='border border-blue-400 w-96 h-10 mt-10 rounded-lg hover:bg-color-palate-2 hover:text-white transition ease-in-out duration-150 '>Sent</button>
+            <button type="submit" className='border border-blue-400 w-96 h-10 mt-10 rounded-lg hover:bg-color-palate-2 hover:text-white transition ease-in-out duration-150 text-gray-700 '>Sent</button>
           </form>
         </div>
         <div className='w-1/2 flex flex-col items-center justify-evenly gap-10'>
@@ -27,7 +27,7 @@ export default function Contact() {
                   Me</p>
               </div>
               <div>
-                <p className=' flex items-end justify-end w-full '>Interested in connecting? Fill the form below and I’ll get in touch with you shortly!</p>
+                <p className=' flex items-end justify-end w-full text-gray-600 '>Interested in connecting? Fill the form below and I’ll get in touch with you shortly!</p>
               </div>
           </div>
         </div>
