@@ -47,8 +47,8 @@ export default function Header({ onMenter, onMleave }) {
       icon: <FaUserAlt />,
     },
     {
-      path: "/projects",
-      name: "Projects",
+      path: "/contact",
+      name: "Contact",
       icon: <FaProjectDiagram />,
     },
   ];
@@ -117,17 +117,17 @@ export default function Header({ onMenter, onMleave }) {
             </li>
             <li
               className={`cursor-pointer py-3 w-24 h-9 text-xl flex items-center justify-center text-gray-600 hover:text-gray-500  ${
-                pathMatchRoute("/projects") &&
+                pathMatchRoute("/contact") &&
                 "text-black border border-sky-500 rounded-sm"
               }`}
               onClick={() => {
-                navigate("/projects");
+                navigate("/contact");
                 // adminOrNot();
               }}
               onMouseEnter={() => onMenter()}
               onMouseLeave={() => onMleave()}
             >
-              Project
+              Contact
             </li>
 
             <li

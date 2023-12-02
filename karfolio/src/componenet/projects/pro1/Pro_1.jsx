@@ -35,7 +35,7 @@ function Project({ id }) {
               // <Project_1 />
             )}
       {id===3 && (
-        <div>dfsd</div>
+        <div className="flex items-center justify-center text-4xl w-full h-full text-gray-400">This section <br /> currently under construction</div>
               // <Project_1 />
             )}
             

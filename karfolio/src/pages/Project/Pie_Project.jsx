@@ -60,8 +60,8 @@ export default function Pie_Project() {
           <p>Project Overview</p>
         </div>
 
-        <div className="p-16 mt-16 font-bold border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center">
-          <p className="2xl:text-5xl md:text-2xl">
+        <div className="p-16 mt-16 border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center">
+          <p className="2xl:text-5xl md:text-xl font-medium text-gray-700">
             Pie Chart is designed to sell all types of baked goods and
             beverages. It is a comprehensive and user-friendly platform that
             allows customers to easily browse and purchase products and
@@ -74,7 +74,7 @@ export default function Pie_Project() {
       <section className="p-28 bg-custom-green w-full h-screen flex gap-12">
         <div className="w-1/4 bg-slate-100 flex flex-col 2xl:p-10 md:p-10 items-start justify-center text-gray-900 rounded-2xl">
           <p className="2xl:text-6xl md:text-5xl font-bold">Problem</p>
-          <p className="2xl:text-3xl md:text-sm mt-10 font-semibold">
+          <p className="2xl:text-3xl md:text-base mt-10 font-semibold">
             Bakery websites may encounter common challenges that can hinder
             their success. These challenges include a lack of a strong online
             presence, outdated website design, poor website content, technical
@@ -184,7 +184,7 @@ export default function Pie_Project() {
         </div>
         <div className="w-3/4 h-full p-24 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <p className="md:text-4xl 2xl:text-6xl font-bold">User survey</p>
-          <p className="md:text-xl 2xl:text-3xl mt-5">
+          <p className="md:text-xl 2xl:text-2xl text-gray-700 mt-5">
             I conducted a user survey to gain valuable insights. By
             strategically posting the survey across various online communities,
             I successfully reached a diverse audience. Within just 24 hours, I
@@ -193,28 +193,28 @@ export default function Pie_Project() {
           <div className="2xl:mt-10 flex items-center justify-evenly gap-8">
             <div className="flex flex-col items-center justify-center mt-5">
               <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
-              <p className="md:text-lg 2xl:text-2xl font-semibold">
+              <p className="md:text-lg 2xl:text-2xl font-semibold text-gray-500">
                 People loves to get
               </p>
-              <p className="md:text-lg 2xl:text-2xl font-semibold">
+              <p className="md:text-lg 2xl:text-2xl font-semibold text-gray-500">
                 bread, cookies and croissant
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">87.5%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold">
+              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500">
                 People mind it convenient
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">50%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold">
+              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500">
                 Age between 37-50
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold">
+              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500">
                 They female
               </p>
             </div>

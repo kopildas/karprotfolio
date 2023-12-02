@@ -17,7 +17,7 @@ export default function Project_1() {
       setIsHovered(false);
       controls.start({ scale: 1 });
     }}
-     className="w-full h-full  ">
+     className="w-full h-full rounded-3xl ">
       <motion.div
         onHoverStart={() => {
           // setIsHovered(true);
@@ -28,14 +28,14 @@ export default function Project_1() {
         transition={{ duration: 0.15 }}
         exit={{ scale: 0.9 }}
         style={{
-          backgroundImage: `url("/images/2_.png")`,
+          backgroundImage: `url("https://i.ibb.co/TT5cntg/Screenshot-2023-12-02-144756-removebg.png")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          height: "100%",
+          // height: "100%",
           // transform: isHovered ? "scale(0.9)" : "scale(1)",
         }}
-        className={`${isHovered && "bg-color-palate-3"} rounded-3xl z-20 cursor-pointer transform-gpu transition-transform  `}
+        className={`${isHovered && "bg-co"} h-full w-full rounded-3xl z-20 cursor-pointer transform-gpu transition-transform  `}
         onClick={() => {
           navigate("/project/1");
         }}
@@ -44,9 +44,12 @@ export default function Project_1() {
           <motion.div
            
             
-            className="w-full h-full  transform-gpu transition-transform flex items-center justify-center text-white ease-in-out"
+            className="w-full h-full  transform-gpu transition-transform flex items-center justify-center text-white ease-in-out rounded-3xl "
+            style={{
+              backgroundColor: "rgba(54, 75, 68, 0.6)",
+            }}
           >
-            <div className="flex items-center justify-center flex-col fon1">
+            <div className="flex items-center justify-center flex-col fon1 ">
               <p className="text text-7xl mb-4 fon2">Pie Chart</p>
               <p className="text-2xl mb-1">
                 A bakery website that is designed to showcase and promote its

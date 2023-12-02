@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Kumbh+Sans:wght@200&display=swap');
 
-.fon1 {
+/* .fon1 {
     font-family: 'Playfair Display', serif;
 }
 .fon2{
     font-family: 'EB Garamond', serif;
-}
+} */
 
 .hover-item {
     transition: 0.03ms;

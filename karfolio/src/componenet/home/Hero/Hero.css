@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Kumbh+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;400;500;600;700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Kumbh+Sans:wght@200;400;600;700&display=swap');
 
 .fon1 {
     font-family: 'Playfair Display', serif;
@@ -7,6 +7,12 @@
 .fon2{
     font-family: 'EB Garamond', serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,700&display=swap'); */
+
+.fon {
+  font-family: "Montagu Slab", serif;
+} 
 
 .warpper {
   height: 100%;
