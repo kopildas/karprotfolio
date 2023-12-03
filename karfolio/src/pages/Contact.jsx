@@ -8,7 +8,8 @@ export default function Contact() {
 
   return (
     <div>
-      <section className="p-28 flex bg-custom-green w-full h-screen gap-12 items-center justify-center fon -mt-10">
+      <section className="p-28 flex bg-custom-green w-full h-screen gap-12 items-center justify-center fon ">
+        <div className='flex -mt-20'>
         <div className='w-1/2 flex flex-col items-center justify-center ml-20'>
           <form  onSubmit={sendEmail}>
             <input type="text" className='h-8 mt-8 w-96 border border-b-gray-500 bg-custom-green' placeholder='Your Name' />
@@ -30,6 +31,7 @@ export default function Contact() {
                 <p className=' flex items-end justify-end w-full text-gray-600 '>Interested in connecting? Fill the form below and I’ll get in touch with you shortly!</p>
               </div>
           </div>
+        </div>
         </div>
       </section>
     </div>

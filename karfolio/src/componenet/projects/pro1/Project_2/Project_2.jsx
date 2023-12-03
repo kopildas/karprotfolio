@@ -33,7 +33,7 @@ export default function Project_2() {
                     {isHovered ? (
                       <div className="">
                         <div
-                          className={`md:w-[950px] md:h-[500px] 2xl:w-[1250px] 2xl:h-4/5 md:top-7 md:left-9 md:absolute md:z-40 ${
+                          className={`md:w-[950px] md:h-[500px] xl:w-[93%] xl:h-[76%]  2xl:w-[93%] 2xl:h-[83%] md:top-7 md:left-9 md:absolute md:z-40 ${
                             isHovered ? "flex" : "hidden"
                           } items-center justify-center text-white transition duration-75 ease-in-out rounded-lg`}
                           style={{
