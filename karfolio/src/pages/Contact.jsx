@@ -20,7 +20,7 @@ export default function Contact() {
           </form>
         </div>
         <div className='w-1/2 flex flex-col items-center justify-evenly gap-10'>
-          <div className='w-64 h-80 rounded-blob border border-blue-300 flex flex-col items-start justify-evenly gap-10 shadow-2xl'>
+          <div className='w-64 h-80  flex flex-col items-start justify-evenly gap-10 '>
               <div>
                 <p className='text-7xl flex items-end justify-end w-full font-black text-gray-700'>Contact</p>
                 <p className='text-6xl flex items-end justify-end w-full font-black text-gray-700 -left-5'>

@@ -19,10 +19,10 @@ export default function Hero() {
         </div>
         <div className="absolute -top-20 md:top-0 left-0 w-full h-full flex items-center justify-center z-40">
           <div className="flex items-center justify-center flex-col">
-            <p className="text text-[32px] mb-4">Hi I'm Austin</p>
-            <p className="md:text-[18px] mb-1">Product Designer by profession & passion, focusing</p>
-            <p className="md:text-[18px] mb-1"> on products and design system. Crafting cool</p>
-            <p className="md:text-[18px] mb-1"> resources and blogs.</p>
+            <p className="text text-6xl text-gray-900 mb-4">Hi I'm Austin</p>
+            <p className="md:text-xl text-gray-800 mb-1">Product Designer by profession & passion, focusing</p>
+            <p className="md:text-xl text-gray-800 mb-1"> on products and design system. Crafting cool</p>
+            <p className="md:text-xl text-gray-800 mb-1"> resources and blogs.</p>
           </div>
         </div>
       </div>

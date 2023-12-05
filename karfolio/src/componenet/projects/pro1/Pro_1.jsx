@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import "./Pro_1.css";
 import Project_1 from "./Project_1/Project_1";
 import Project_2 from "./Project_2/Project_2";
+import U_construction from "../../U_construction";
 // import Project_2 from "../Project_2/Project_2";
 
 function useParallax(value, distance) {
@@ -35,7 +36,9 @@ function Project({ id }) {
               // <Project_1 />
             )}
       {id===3 && (
-        <div className="flex items-center justify-center text-4xl w-full h-full text-gray-400">This section <br /> currently under construction</div>
+        <div className="flex items-center justify-center text-4xl w-full h-full text-gray-400"><div className="w-full h-full">
+          <U_construction />
+          </div></div>
               // <Project_1 />
             )}
             
