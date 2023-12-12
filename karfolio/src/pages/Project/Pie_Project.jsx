@@ -24,7 +24,7 @@ export default function Pie_Project() {
   return (
     <div className="fon">
       <section className="p-16 bg-custom-green h-screen w-full flex gap-12">
-        <div className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-6xl flex items-center justify-center font-black custom-text-color">
+        <div className="w-1/2 text md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-6xl flex items-center justify-center font-black text-heading-col-1"> 
           Pie Chart
         </div>
 
@@ -41,12 +41,12 @@ export default function Pie_Project() {
 
       {/* Project Overview */}
       <section className="p-16 bg-custom-green  w-full flex flex-col gap-12">
-        <div className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color ">
+        <div className="w-full flex items-center justify-center  md:text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl font-black text-heading-col-1 ">
           <p>Project Overview</p>
         </div>
 
         <div className="p-16 mt-16 border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center shadow-xl">
-          <p className="2xl:text-5xl md:text-xl font-medium text-gray-700">
+          <p className="2xl:text-5xl md:text-3xl font-medium text-gray-700 textFont">
             Pie Chart is designed to sell all types of baked goods and
             beverages. It is a comprehensive and user-friendly platform that
             allows customers to easily browse and purchase products and
@@ -58,8 +58,8 @@ export default function Pie_Project() {
       {/* problem */}
       <section className="p-28 bg-custom-green w-full h-screen flex gap-12">
         <div className="w-1/4 bg-slate-100 flex flex-col 2xl:p-10 md:p-10 items-start justify-center text-gray-900 rounded-2xl">
-          <p className="2xl:text-6xl md:text-5xl font-bold">Problem</p>
-          <p className="2xl:text-3xl md:text-base mt-10 font-semibold">
+          <p className="2xl:text-6xl md:text-4xl font-semibold text-heading-col-1">Problem</p>
+          <p className="2xl:text-3xl md:text-[17px] mt-10 font-semibold textFont">
             Bakery websites may encounter common challenges that can hinder
             their success. These challenges include a lack of a strong online
             presence, outdated website design, poor website content, technical
@@ -104,19 +104,19 @@ export default function Pie_Project() {
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
         <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 1</p>
-          <p className="text-gray-900 text-xl 2xl:text-2xl">
+          <p className="text-gray-900 text-xl 2xl:text-2xl textFont">
             Clear and concise content will make easy to understand
           </p>
         </div>
         <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 2</p>
-          <p className="text-gray-900 text-xl 2xl:text-2xl">
+          <p className="text-gray-900 text-xl 2xl:text-2xl textFont">
             Consistent design makes polished and professional look
           </p>
         </div>
         <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 3</p>
-          <p className="text-gray-900 text-xl 2xl:text-2xl">
+          <p className="text-gray-900 text-xl 2xl:text-2xl textFont">
             Up to date with social media to connect with customers
           </p>
         </div>
@@ -126,7 +126,7 @@ export default function Pie_Project() {
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
         <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">My Role</p>
-          <ul className="2xl:text-2xl text-xl font-bold mt-3">
+          <ul className="2xl:text-2xl text-xl font-bold mt-3 textFont">
             <li>> UX Design</li>
             <li>> UI Design</li>
             <li>> UX Research</li>
@@ -134,7 +134,7 @@ export default function Pie_Project() {
         </div>
         <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Duration</p>
-          <ul className="2xl:text-2xl text-xl font-bold mt-3">
+          <ul className="2xl:text-2xl text-xl font-bold mt-3 textFont">
             <li>> 24 Weeks</li>
             <li>> 40+ Screens</li>
           </ul>
@@ -142,7 +142,7 @@ export default function Pie_Project() {
         <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <div className="mt-9">
             <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Tools</p>
-            <ul className="2xl:text-2xl text-xl font-bold mt-3">
+            <ul className="2xl:text-2xl text-xl font-bold mt-3 textFont">
               <li>> Adobe XD</li>
               <li>> Google Form</li>
               <li>> Microsoft Word</li>
@@ -157,7 +157,7 @@ export default function Pie_Project() {
         <div className="w-1/4 bg-green-lite flex flex-col md:p-10 2xl:p-14 items-start justify-center text-gray-900 rounded-2xl">
           <p className="2xl:text-6xl md:text-4xl font-bold">Process</p>
           <p className="text-3xl mt-10 font-semibold">
-            <ul className="2xl:text-2xl md:text-xl font-bold mt-3">
+            <ul className="2xl:text-2xl md:text-xl font-bold mt-3 textFont">
               <li>> Empathize with user</li>
               <li>> Define pain point</li>
               <li>> Ideate solution</li>
@@ -169,7 +169,7 @@ export default function Pie_Project() {
         </div>
         <div className="w-3/4 h-full p-24 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <p className="md:text-4xl 2xl:text-6xl font-bold">User survey</p>
-          <p className="md:text-xl 2xl:text-2xl text-gray-700 mt-5">
+          <p className="md:text-xl 2xl:text-2xl text-gray-700 mt-5 textFont">
             I conducted a user survey to gain valuable insights. By
             strategically posting the survey across various online communities,
             I successfully reached a diverse audience. Within just 24 hours, I
@@ -178,28 +178,28 @@ export default function Pie_Project() {
           <div className="2xl:mt-10 flex items-center justify-evenly gap-8">
             <div className="flex flex-col items-center justify-center mt-5">
               <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
-              <p className="md:text-lg 2xl:text-2xl font-semibold text-gray-500">
+              <p className="md:text-lg 2xl:text-2xl font-semibold text-gray-500 textFont">
                 People loves to get
               </p>
-              <p className="md:text-lg 2xl:text-2xl font-semibold text-gray-500">
+              <p className="md:text-lg 2xl:text-2xl font-semibold text-gray-500 textFont">
                 bread, cookies and croissant
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">87.5%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500">
+              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500 textFont">
                 People mind it convenient
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">50%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500">
+              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500 textFont">
                 Age between 37-50
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="md:text-4xl 2xl:text-6xl font-bold">75%</p>
-              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500">
+              <p className="md:text-lg 2xl:text-2xl  font-semibold text-gray-500 textFont">
                 They female
               </p>
             </div>
@@ -221,7 +221,7 @@ export default function Pie_Project() {
 
             <div className=" 2xl:p-10 md:p-5 bg-green-lite rounded-3xl">
               <p className="md:text-3xl 2xl:text-4xl  font-bold">Background</p>
-              <p className="2xl:text-xl md:text-sm font-bold mt-5">
+              <p className="2xl:text-xl md:text-sm font-bold mt-5 textFont">
                 Dipto is a full time HR student at Georgia State University.
                 During his busy schedule, he sometimes likes to order online,
                 but products listed for sale in store aren’t on the website.
@@ -237,19 +237,19 @@ export default function Pie_Project() {
                 <p className="mb-5 md:text-3xl 2xl:text-4xl  font-black">
                   Dipto <br /> Nag,23
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Occupation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">Student</span>
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">Single</span>
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">Atlanta</span>
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Tech Literte&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">Average</span>
                 </p>
@@ -262,7 +262,7 @@ export default function Pie_Project() {
                   </p>
                   <FaQuoteRight className="text-4xl -mt-3 text-blue-600" />
                 </div>
-                <p className="2xl:text-2xl italic font-bold">
+                <p className="2xl:text-2xl italic font-bold textFont">
                   Adding more meat items to the menu can push the protein intake
                 </p>
               </div>
@@ -272,14 +272,14 @@ export default function Pie_Project() {
                 </p>
 
                 <div className="flex gap-3">
-                  <p className="2xl:text-xl  bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold">
+                  <p className="2xl:text-xl  bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold textFont">
                     Caring
                   </p>
-                  <p className="2xl:text-xl  bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold">
+                  <p className="2xl:text-xl  bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold textFont">
                     Kindness
                   </p>
                 </div>
-                <p className="2xl:text-xl   bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold mt-4">
+                <p className="2xl:text-xl   bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold textFont mt-4">
                   Loyality
                 </p>
               </div>
@@ -291,7 +291,7 @@ export default function Pie_Project() {
                   Goals
                 </p>
 
-                <ul>
+                <ul className="textFont">
                   <li>Try new items</li>
                   <li>Buy more products</li>
                 </ul>
@@ -301,7 +301,7 @@ export default function Pie_Project() {
                   Frustration
                 </p>
 
-                <ul>
+                <ul className="textFont">
                   <li>
                     Studying so hard <br /> no time going to <br /> the store
                   </li>
@@ -350,7 +350,7 @@ export default function Pie_Project() {
 
             <div className=" 2xl:p-10 md:p-5 bg-green-lite rounded-3xl">
               <p className="md:text-3xl 2xl:text-4xl font-bold">Background</p>
-              <p className="2xl:text-xl md:text-sm font-bold mt-5">
+              <p className="2xl:text-xl md:text-sm font-bold mt-5 textFont">
                 Ehsanul is a 25 year old financial data analyst who lives with
                 his family. Since they don't have a reliable website for
                 ordering a cake, Ehsanul expects the local bakery store to
@@ -367,18 +367,18 @@ export default function Pie_Project() {
                   Ehsanul
                   <br /> Karim, 25
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Occupation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">
                     Data <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;analyst
                   </span>
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">Single</span>
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">
                     Atlanta, <br />
@@ -386,7 +386,7 @@ export default function Pie_Project() {
                     Georgia
                   </span>
                 </p>
-                <p className="mt-2 2xl:text-lg font-semibold">
+                <p className="mt-2 2xl:text-lg font-semibold textFont">
                   Tech Literte&nbsp;&nbsp;&nbsp;&nbsp;
                   <span className="font-black 2xl:text-xl">Average</span>
                 </p>
@@ -399,7 +399,7 @@ export default function Pie_Project() {
                   </p>
                   <FaQuoteRight className="text-4xl -mt-3 text-blue-600" />
                 </div>
-                <p className="2xl:text-2xl italic font-bold">
+                <p className="2xl:text-2xl italic font-bold textFont">
                   Having secure website can increase visibility
                 </p>
               </div>
@@ -409,10 +409,10 @@ export default function Pie_Project() {
                 </p>
 
                 <div className="flex gap-3">
-                  <p className="2xl:text-xl bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold">
+                  <p className="2xl:text-xl bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold textFont">
                     Caring
                   </p>
-                  <p className="2xl:text-xl bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold">
+                  <p className="2xl:text-xl bg-white w-fit md:p-2 2xl:p-4 rounded-3xl font-bold textFont">
                     Kindness
                   </p>
                 </div>
@@ -425,7 +425,7 @@ export default function Pie_Project() {
                   Goals
                 </p>
 
-                <ul>
+                <ul className="textFont">
                   <li>Pay securely</li>
                 </ul>
               </div>
@@ -434,7 +434,7 @@ export default function Pie_Project() {
                   Frustration
                 </p>
 
-                <ul>
+                <ul className="textFont">
                   <li>Concerned about trusting strangers during payment</li>
                   <li> Working too much so no time going to the store</li>
                 </ul>
@@ -479,7 +479,7 @@ export default function Pie_Project() {
                 SAYS
               </p>
 
-              <p className="text-black font-bold mt-5 text-xl">
+              <p className="text-black font-bold mt-5 text-xl textFont">
                 "The website doesn't have all the products which can be found in
                 the store only"
               </p>
@@ -489,7 +489,7 @@ export default function Pie_Project() {
                 THINK
               </p>
 
-              <p className="text-black font-bold mt-5 text-xl">
+              <p className="text-black font-bold mt-5 text-xl textFont">
                 "Smiling and leaning forward as they spoke"
               </p>
             </div>
@@ -506,7 +506,7 @@ export default function Pie_Project() {
                 DOES
               </p>
 
-              <p className="text-black font-bold mt-5 text-xl">
+              <p className="text-black font-bold mt-5 text-xl textFont">
                 "Call them and see if they have Tres Leches cake"
               </p>
             </div>
@@ -515,7 +515,7 @@ export default function Pie_Project() {
                 FEELS
               </p>
 
-              <p className="text-black font-bold mt-5 text-xl">
+              <p className="text-black font-bold mt-5 text-xl textFont">
                 "How was your experience when you had to order a custom cake and
                 how did it go?
                 <br /> •Frustrated and bothered"
@@ -530,7 +530,7 @@ export default function Pie_Project() {
           <div className="p-14 border border-gray-700 flex flex-col items-center justify-center md:w-[25rem] md:h-[25rem] 2xl:w-[35rem] 2xl:h-[35rem]">
             <p className="bg-black text-white p-3 rounded-xl text-2xl">SAYS</p>
 
-            <p className="text-black font-bold mt-5 text-xl">
+            <p className="text-black font-bold mt-5 text-xl textFont">
               "The website doesn't have all the products which can be found in
               the store only"
             </p>
@@ -538,7 +538,7 @@ export default function Pie_Project() {
           <div className="p-14 border border-gray-700 flex flex-col items-center justify-center md:w-[25rem] md:h-[25rem] 2xl:w-[35rem] 2xl:h-[35rem]">
             <p className="bg-black text-white p-3 rounded-xl text-2xl">THINK</p>
 
-            <p className="text-black font-bold mt-5 text-xl">
+            <p className="text-black font-bold mt-5 text-xl textFont">
               "Smiling and leaning forward as they spoke"
             </p>
           </div>
@@ -553,14 +553,14 @@ export default function Pie_Project() {
           <div className="p-14 border border-gray-700 flex flex-col items-center justify-center md:w-[25rem] md:h-[25rem] 2xl:w-[35rem] 2xl:h-[35rem]">
             <p className="bg-black text-white p-3 rounded-xl text-2xl">DOES</p>
 
-            <p className="text-black font-bold mt-5 text-xl">
+            <p className="text-black font-bold mt-5 text-xl textFont">
               "Call them and see if they have Tres Leches cake"
             </p>
           </div>
           <div className="p-14 border border-gray-700 flex flex-col items-center justify-center md:w-[25rem] md:h-[25rem] 2xl:w-[35rem] 2xl:h-[35rem]">
             <p className="bg-black text-white p-3 rounded-xl text-2xl">FEELS</p>
 
-            <p className="text-black font-bold mt-5 text-xl">
+            <p className="text-black font-bold mt-5 text-xl textFont">
               "How was your experience when you had to order a custom cake and
               how did it go?
               <br /> •Frustrated and bothered"
@@ -572,7 +572,7 @@ export default function Pie_Project() {
       {/* User Journey Map */}
       <section className="p-28 flex flex-col bg-custom-green w-full h-auto gap-12">
         <p className="text-5xl font-black">User Journey Map</p>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 textFont">
           <div className="flex gap-5 pl-20">
             <div className="w-64 h-64 rounded-xl flex items-center justify-center bg-box-color-1 font-bold text-white">
               Action
@@ -721,7 +721,7 @@ export default function Pie_Project() {
             <p className="2xl:text-6xl md:text-4xl font-black">
               <span className=" text-gray-500">0.1&nbsp;</span>Typography
             </p>
-            <div className="flex items-center justify-center mt-10 gap-10">
+            <div className="flex items-center justify-center mt-10 gap-10 ">
               <div className="flex flex-col items-center justify-center">
                 <p className="2xl:text-3xl md:text-2xl mb-5 font-black">
                   Segoe UI
@@ -1018,7 +1018,7 @@ export default function Pie_Project() {
       
 
       <section className="p-28 flex flex-col bg-custom-green w-full h-screen gap-12 items-center justify-center">
-        <p className="text-9xl font-black text-gray-800">THANK YOU</p>
+        <p className="text-9xl font-black text-heading-col-1">THANK YOU</p>
       </section>
 
       

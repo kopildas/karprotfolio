@@ -31,7 +31,7 @@ export default function Backstore_project() {
   return (
     <div className="fon">
       <section className="p-16 bg-custom-green h-screen w-full flex gap-12">
-        <div className="w-1/2 text md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-6xl flex items-center justify-center font-black custom-text-color">
+        <div className="w-1/2 text-heading-col-1 text md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-6xl flex items-center justify-center font-black custom-text-color">
           Backstore Pro
         </div>
 
@@ -69,12 +69,12 @@ export default function Backstore_project() {
 
       {/* Project Overview */}
       <section className="p-16 bg-custom-green w-full h- flex flex-col gap-12">
-        <div className="w-full flex items-center justify-center  md:text-5xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black custom-text-color">
+        <div className="w-full flex items-center justify-center md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-9xl font-black custom-text-color">
           <p>Project Overview</p>
         </div>
 
         <div className="p-16 mt-16 font-bold border border-slate-200 rounded-2xl bg-white flex flex-col items-center justify-center shadow-xl">
-          <p className="2xl:text-5xl md:text-2xl">
+          <p className="2xl:text-5xl md:text-2xl textFont">
             Backstore Pro is an eCommerce mobile application where users will be
             able to buy quality products at the best price and conveniently.
           </p>
@@ -85,7 +85,7 @@ export default function Backstore_project() {
       <section className="p-28 bg-custom-green w-full h-auto flex gap-12">
         <div className="w-1/4 h-screen bg-slate-100 flex flex-col 2xl:p-10 md:p-10 items-start justify-center text-gray-900 rounded-2xl">
           <p className="2xl:text-6xl md:text-5xl font-bold">Problem</p>
-          <p className="2xl:text-3xl md:text-sm mt-10 font-semibold">
+          <p className="2xl:text-3xl md:text-lg mt-10 font-semibold textFont">
             Due to the excessive price of computer hardware components,
             businesses don't make enough money.
           </p>
@@ -112,13 +112,13 @@ export default function Backstore_project() {
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
         <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 1</p>
-          <p className="text-gray-900 text-xl 2xl:text-2xl">
+          <p className="text-gray-900 text-xl 2xl:text-2xl textFont">
             Offer access to highly Desirable Hardware Components
           </p>
         </div>
         <div className="bg-green-lite flex flex-col p-10 2xl:p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Goal 2</p>
-          <p className="text-gray-900 text-xl 2xl:text-2xl">
+          <p className="text-gray-900 text-xl 2xl:text-2xl textFont">
             Provide Competitive and Reasonable Pricing
           </p>
         </div>
@@ -128,7 +128,7 @@ export default function Backstore_project() {
       <section className="w-full h-screen bg-custom-green flex gap-5 items-center justify-evenly font-bold">
         <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">My Role</p>
-          <ul className="2xl:text-2xl text-xl font-bold mt-3">
+          <ul className="2xl:text-2xl text-xl font-bold mt-3 textFont">
             <li>
               • UX designer designing an ecommerce mobile app from conception to
               delivery
@@ -137,7 +137,7 @@ export default function Backstore_project() {
         </div>
         <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Duration</p>
-          <ul className="2xl:text-2xl text-xl font-bold mt-3">
+          <ul className="2xl:text-2xl text-xl font-bold mt-3 textFont">
             <li>• 4 Weeks</li>
             <li>• 22+ Screens</li>
           </ul>
@@ -145,7 +145,7 @@ export default function Backstore_project() {
         <div className="bg-green-lite flex flex-col p-5 items-center justify-center w-80 2xl:w-96 h-3/5 text-gray-900 gap-3 shadow-xl rounded-2xl">
           <div className="mt-9">
             <p className="text-gray-900 md:text-4xl 2xl:text-6xl">Tools</p>
-            <ul className="2xl:text-2xl text-xl font-bold mt-3">
+            <ul className="2xl:text-2xl text-xl font-bold mt-3 textFont">
               <li>• Figma</li>
               <li>• Google Form</li>
               <li>• Microsoft Word</li>
@@ -162,7 +162,7 @@ export default function Backstore_project() {
         <div className="w-1/4 bg-green-lite flex flex-col md:p-8 2xl:p-14 items-start justify-center text-gray-900 rounded-2xl">
           <p className="2xl:text-6xl md:text-4xl font-bold">Process</p>
           <p className="text-3xl mt-10 font-semibold">
-            <ul className="2xl:text-2xl md:text-xl font-bold mt-3">
+            <ul className="2xl:text-2xl md:text-xl font-bold mt-3 textFont">
               <li>• Empathize with user</li>
               <li>• Define pain point</li>
               <li>• Ideate solution</li>
@@ -174,7 +174,7 @@ export default function Backstore_project() {
         </div>
         <div className="w-3/4 h-full 2xl:p-24 md:p-10 border border-slate-00 rounded-2xl bg-green-lite flex flex-col items-center justify-center">
           <p className="md:text-4xl 2xl:text-6xl font-bold">User survey</p>
-          <p className="md:text-xl text-gray-700 2xl:text-3xl mt-5">
+          <p className="md:text-xl text-gray-700 2xl:text-3xl mt-5 textFont">
             The quantitative research consisted of ten survey participants who
             are comfortable inserting card information online, and who like to
             shop online. Following are the survey questions and responses:
@@ -199,7 +199,7 @@ export default function Backstore_project() {
       </section>
 
       {/* persona 1 */}
-      <section className="flex items-center justify-center h-auto md:mt-[2rem] 2xl:mt-[25rem]">
+      <section className="flex items-center justify-center h-auto md:mt-[2rem] 2xl:mt-[25rem] textFont">
         <div className="w-1/2 rounded-2xl bg-custom-green flex flex-col items-center justify-center p-10">
           {/* <p className="md:text-4xl 2xl:text-6xl font-black">Persona</p> */}
           <div className="flex mt-10 gap-10">
@@ -358,7 +358,7 @@ export default function Backstore_project() {
             <p className="text-4xl font-black ">NAHIR</p>
           </div>
           <div className="flex items-center justify-around w-full gap-10">
-            <p className="text-xl text-gray-500 font-bold w-3/5 ">
+            <p className="text-xl text-gray-500 font-bold w-3/5 textFont">
               Nahir is currently operating a startup business while working as a
               senior software engineer for a large company. For business
               purposes, he order computer parts more frequently. He doesn’t get
@@ -366,7 +366,7 @@ export default function Backstore_project() {
             </p>
             <div className="w-2/5 flex flex-col -mt-5">
               <p className="text-2xl font-black ">GOALS, NEEDS, OUTCOMES</p>
-              <div className="text-xl font-bold text-gray-500 pl-10">
+              <div className="text-xl font-bold text-gray-500 pl-10 textFont">
                 <ul>
                   <li>Make profit</li>
                   <li>Good deal</li>
@@ -376,7 +376,7 @@ export default function Backstore_project() {
           </div>
         </div>
 
-        <div className="w-full flex items-center justify-center">
+        <div className="w-full flex items-center justify-center textFont">
           <table className="border border-blue-700 border-dashed">
             <tr className="border border-blue-700 border-dashed">
               <th className="border border-blue-700 border-dashed">PHASES</th>
@@ -804,7 +804,7 @@ export default function Backstore_project() {
       </section>
 
       <section className="p-28 flex flex-col bg-custom-green w-full h-screen gap-12 items-center justify-center">
-        <p className="text-9xl font-black text-gray-800">THANK YOU</p>
+        <p className="text-9xl font-black text-heading-col-1">THANK YOU</p>
       </section>
     </div>
   );

@@ -47,10 +47,10 @@ export default function Project_2() {
                           <div
                             className={`flex items-center justify-center flex-col text-black fon1`}
                           >
-                            <p className="text text-7xl mb-4 fon2">
+                            <p className="text text-5xl mb-4 fon">
                             Backstore Pro
                             </p>
-                            <p className="text-2xl mb-1">
+                            <p className="text-2xl mb-1 textFont">
                             An eCommerce mobile application for building custom computers
                             </p>
                             

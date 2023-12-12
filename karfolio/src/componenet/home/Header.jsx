@@ -64,7 +64,7 @@ export default function Header({ onMenter, onMleave }) {
 
   return (
     <header
-      className={`fon border-b shadow-sm sticky top-0 z-40 transform-gpu transition-transform ${
+      className={`border-b shadow-sm sticky top-0 z-40 transform-gpu transition-transform headerFont ${
         !visible ? "-translate-y-48" : "" // Hide the header when not visible
       }`}
       style={{

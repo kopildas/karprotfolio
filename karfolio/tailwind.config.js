@@ -35,6 +35,9 @@ module.exports = {
         'cust-elv': '#FE9C69',
         'cust-twv': '#ED6C30',
       },
+      colors: {
+        'heading-col-1': '#2d1339'
+      },
       borderRadius: {
         'none': '0',
         'sm': '0.125rem',

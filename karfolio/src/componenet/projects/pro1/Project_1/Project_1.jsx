@@ -50,12 +50,12 @@ export default function Project_1() {
             }}
           >
             <div className="flex items-center justify-center flex-col fon1 ">
-              <p className="text text-7xl mb-4 fon2">Pie Chart</p>
-              <p className="text-2xl mb-1">
+              <p className="text text-6xl mb-4 fon">Pie Chart</p>
+              <p className="text-2xl mb-1 textFont">
                 A bakery website that is designed to showcase and promote its
                 products
               </p>
-              <p className="text-2xl mb-1">and services in an effective way.</p>
+              <p className="text-2xl mb-1 textFont">and services in an effective way.</p>
             </div>
           </motion.div>
         ) : null}

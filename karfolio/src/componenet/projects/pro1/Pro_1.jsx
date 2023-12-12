@@ -25,7 +25,7 @@ function Project({ id }) {
         <div className="md:p-16 p-5 md:m-20 2xl:m-44">
           <div
             ref={ref}
-            className="bg-custom-green h-[90vh] p-5 z-30"
+            className="bg-custom-green h-[90vh] p-5 z-30 rounded-3xl"
             style={{ overflow: "hidden" }} // Add overflow property to clip child content
           >
              {id===1 && (
@@ -142,7 +142,7 @@ function Project({ id }) {
           x: isEven ? 50 : 1050, // Apply the x position based on id parity
           position: "absolute", // Ensure absolute positioning
         }}
-        className="text text-9xl text-neutral-500 hidden md:block"
+        className="text text-9xl text-neutral-600 hidden md:block"
       >{`#00${id}`}</motion.h2>
 
       {/* // for mobile view */}
@@ -161,9 +161,9 @@ function Project({ id }) {
 export default function Pro_1() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
+    stiffness: 200,
     damping: 30,
-    restDelta: 0.001,
+    restDelta: 0.004,
   });
   return (
     <>
