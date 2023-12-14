@@ -21,7 +21,7 @@ export default function Project_2() {
                       <img
                         src={`https://i.ibb.co/3Fq8cN3/title.png`}
                         alt="Image 1"
-                        className="absolute w-[900px] h-[900px] object-cover transform-gpu transition-transform group-hover:-translate-y-48 -top-[450px] -right-44"
+                        className="absolute w-[900px] h-[900px] object-cover transform-gpu transition-transform group-hover:-translate-y-48 -top-[400px] -right-44"
                       />
                       <img
                         src={`https://i.ibb.co/3Fq8cN3/title.png`}
